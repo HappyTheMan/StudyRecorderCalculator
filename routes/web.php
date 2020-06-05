@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'RecordController@index');
+Route::get('/', 'HomeController@index');
 
 Route::post('/', 'RecordController@record');
+
+Route::get('/subject', function () {
+    return view('subject');
+});
+
+Route::get('update/{id}','RecordController@update');
+
+Route::post('update/{id}','RecordController@realupdate');
+
+Route::post('/subject', 'RecordController@create');
+
+Route::get('/delete/{id}', 'RecordController@delete');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+

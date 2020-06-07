@@ -99,10 +99,7 @@
 
         <main class="py-4">
             @yield('content')
-            <center><a href="" onClick="addToHomeScreen()">
-                    <button href="subject" class="btn" style="color: black; background-color: lightpink">+ Add To Home
-                        Screen +</button>
-                </a></center>
+            
 
         </main>
     </div>

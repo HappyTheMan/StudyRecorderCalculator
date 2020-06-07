@@ -1,0 +1,17 @@
+{
+    "name": "BhoneSithu",
+    "short_name": "BhoneSithu",
+    "icons": [{
+        "src": "images/Clock.png",
+        "sizes": "192x192",
+        "type": "images/Clock.png"
+    }],
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#7c4dff",
+    "description": "BhoneSithu's PWA",
+    "dir": "ltr",
+    "lang": "en-US"
+}

@@ -63,8 +63,11 @@
         </form>
     @endif
     <center><a href="subject" style="text-decoration: none;color:black"><button href="subject" class="btn"
-                style="color: black; background-color: lightblue">+ Add New Subject +</button></a></center>
+                style="color: black; background-color: lightblue">+ Add New Subject +</button></a>
 
+            </center>
+
+<br>
 
 </div>
 @endsection

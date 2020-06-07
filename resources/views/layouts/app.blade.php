@@ -5,6 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" href="{{ asset('images/Clock.png') }}">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="{{ asset('images/Clock.png') }}" sizes="2048x2732" rel="apple-touch-startup-image" />
+<link href="{{ asset('images/Clock.png') }}" sizes="1668x2224" rel="apple-touch-startup-image" />
+<link href="{{ asset('images/Clock.png') }}" sizes="1536x2048" rel="apple-touch-startup-image" />
+<link href={{ asset('images/Clock.png') }}" sizes="1125x2436" rel="apple-touch-startup-image" />
+<link href="{{ asset('images/Clock.png') }}" sizes="1242x2208" rel="apple-touch-startup-image" />
+<link href="{{ asset('images/Clock.png') }}" sizes="750x1334" rel="apple-touch-startup-image" />
+<link href="{{ asset('images/Clock.png') }}" sizes="640x1136" rel="apple-touch-startup-image" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

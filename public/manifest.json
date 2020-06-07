@@ -1,6 +1,6 @@
 {
-    "name": "BhoneSithu",
-    "short_name": "BhoneSithu",
+    "name": "StudyRecord",
+    "short_name": "StudyRecord",
     "icons": [{
         "src": "images/Clock.png",
         "sizes": "192x192",
